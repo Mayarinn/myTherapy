@@ -15,7 +15,7 @@ class ViewController: UIViewController {
         SavedMinds.answeredMind = AnswerMindClass.init(name: "first")
         print(SavedMinds.answeredMind.hour, ":",
               SavedMinds.answeredMind.minute, ":",
-              SavedMinds.answeredMind.second
+              SavedMinds.answeredMind.second, SavedMinds.answeredMind.name
         )
     }
 
