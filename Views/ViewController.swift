@@ -11,7 +11,12 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        SavedMinds.answeredMind = AnswerMindClass.init(name: "first")
+        print(SavedMinds.answeredMind.hour, ":",
+              SavedMinds.answeredMind.minute, ":",
+              SavedMinds.answeredMind.second
+        )
     }
 
 
