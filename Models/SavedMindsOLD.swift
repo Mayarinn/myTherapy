@@ -1,5 +1,5 @@
 //
-//  SavedMinds.swift
+//  SavedMindsOLD.swift
 //  myTherapy
 //
 //  Created by Karina Osadchaya on 11/1/24.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-final class SavedMinds {
+final class SavedMindsOLD {
     
     static var answeredMind: AnswerMindClass! {
         get {

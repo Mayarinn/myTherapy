@@ -12,10 +12,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        SavedMinds.answeredMind = AnswerMindClass.init(name: "first")
-        print(SavedMinds.answeredMind.hour, ":",
-              SavedMinds.answeredMind.minute, ":",
-              SavedMinds.answeredMind.second, SavedMinds.answeredMind.name
+        SavedMindsOLD.answeredMind = AnswerMindClass.init(name: "first")
+        print(SavedMindsOLD.answeredMind.hour, ":",
+              SavedMindsOLD.answeredMind.minute, ":",
+              SavedMindsOLD.answeredMind.second, SavedMindsOLD.answeredMind.name
         )
     }
 
